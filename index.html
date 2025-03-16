@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mikhuykuna</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          id="header-img"
+          src="https://i.ibb.co/8gdSGHkj/Imagen-de-Whats-App-2025-03-15-a-las-18-55-07-f0db4f62-removebg-preview.png"
+        />
+        <h1>Mikhuykuna</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#order-form">Pedidos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="menu">
+        <h2>Menú</h2>
+        <section id="menu-food">
+          <article>
+            <figure>
+              <img
+                src="https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_50,w_2600/hellofresh_s3/image/HF_Y24_R21_W50_ES_ESSGS32389-2_Main_high-8127c621.jpg"
+                alt="Raviolis de calabacín"
+              />
+              <figcaption></figcaption>
+            </figure>
+            <h3>Raviolis de calabacín y ricotta con langostino grande</h3>
+            <p>
+              Raviolis de calabacín rellenos de ricotta con verduras y cubre con
+              un carnoso y jugoso langostino.
+            </p>
+            <p>Precio: <i>S/.10</i></p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_50,w_2600/hellofresh_s3/image/HF_Y24_R09_W47_ES_ESCLVV19995-3_Main_3_high-f5b3412e.jpg"
+                alt="Hamburguesa de carne vegana y patata"
+              />
+            </figure>
+            <h3>Hamburguesa de carne vegana y patata</h3>
+            <p>
+              Hamburguesas preparadas a partir de carne picada vegana y patata
+              que acompañamos con un pisto de verduras al estilo tradicional.
+            </p>
+            <p>Precio: <i>S/.10</i></p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_50,w_2600/hellofresh_s3/image/HF_Y24_R16_W45_ES_ESSGB27671-2_Main_high-77a367f4.jpg"
+                alt="Entrecot de ternera con salsa casera de queso azul"
+              />
+            </figure>
+            <h3>Entrecot de ternera con salsa casera de queso azul</h3>
+            <p>
+              Entrecot de ternera tierno y sabroso y potenciado con una salsa
+              casera de queso azul. Acompañado esta intensa combinación con
+              patatas asadas al romero y verduras salteadas.
+            </p>
+            <p>Precio: <i>S/.10</i></p>
+          </article>
+        </section>
+      </section>
+      <section id="order-form">
+        <h2>Realiza tu pedido</h2>
+        <form>
+          <p>Ingresa la cantidad que desea de cada plato</p>
+          <label for="raviolis"
+            >Raviolis de calabacín y ricotta con langostino grande
+            <input type="number" name="raviolis" min="0" value="0" />
+          </label>
+          <br />
+          <label for="hamburguesa">
+            Hamburguesa de carne vegana y patata
+            <input type="number" name="hamburguesa" min="0" value="0" />
+          </label>
+          <br />
+          <label for="entrecot"
+            >Entrecot de ternera con salsa casera de queso azul
+            <input type="number" name="entrecot" min="0" value="0" />
+          </label>
+          <br /><br />
+          <p>Extras</p>
+          <label for="extra-rice">
+            <input type="checkbox" name="extra-rice" />
+            Agregar más Arroz
+          </label>
+          <br />
+          <label for="extra-potatos">
+            <input type="checkbox" name="extra-potatos" />
+            Agregar más papas
+          </label>
+          <br />
+          <label for="extra-salad">
+            <input type="checkbox" name="extra-salad" />
+            Agregar más ensalada</label
+          >
+          <br />
+          <label for="special-request">
+            <textarea
+              name="special-request"
+              id=""
+              cols="64"
+              rows="7"
+              placeholder="Enter some special request"
+            ></textarea>
+          </label>
+          <br /><br />
+          <input type="submit" class="btn-submit" value="Go To Checkout" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Made with love by <b>Issa Ostos Hotta</b></p>
+    </footer>
+  </body>
+</html>
